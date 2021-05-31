@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MedCal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="list_times">
+        <item>Once Daily</item>
+        <item>Twice Daily</item>
+        <item>3 Times A Day</item>
+        <item> Every 12 Hours</item>
+        <item>Every 8 Hours</item>
+        <item>Every 6 Hours</item>
+    </string-array>
+
+    <string-array name="list_hours">
+        <item>08.00</item>
+        <item>10.00</item>
+        <item>12.00</item>
+        <item>14.00</item>
+        <item>16.00</item>
+        <item>18.00</item>
+        <item>20.00</item>
+    </string-array>
+
+    <string-array name="list_takes">
+        <item>Take 1</item>
+        <item>Take 2</item>
+        <item>Take 3</item>
+    </string-array>
+
+</resources>

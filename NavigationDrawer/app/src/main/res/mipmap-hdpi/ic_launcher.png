@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="androidx.core.provider.FontsContractCompat.FontFamilyResult FontFamilyResult(int, androidx.core.provider.FontsContractCompat.FontInfo[]) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{androidx.core.provider.FontsContractCompat.FontFamilyResult.STATUS_OK, androidx.core.provider.FontsContractCompat.FontFamilyResult.STATUS_WRONG_CERTIFICATES, androidx.core.provider.FontsContractCompat.FontFamilyResult.STATUS_UNEXPECTED_DATA_PROVIDED}" />
+    </annotation>
+  </item>
+  <item name="androidx.core.provider.FontsContractCompat.FontFamilyResult int getStatusCode()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{androidx.core.provider.FontsContractCompat.FontFamilyResult.STATUS_OK, androidx.core.provider.FontsContractCompat.FontFamilyResult.STATUS_WRONG_CERTIFICATES, androidx.core.provider.FontsContractCompat.FontFamilyResult.STATUS_UNEXPECTED_DATA_PROVIDED}" />
+    </annotation>
+  </item>
+  <item name="androidx.core.provider.FontsContractCompat.FontFamilyResult mStatusCode">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{androidx.core.provider.FontsContractCompat.FontFamilyResult.STATUS_OK, androidx.core.provider.FontsContractCompat.FontFamilyResult.STATUS_WRONG_CERTIFICATES, androidx.core.provider.FontsContractCompat.FontFamilyResult.STATUS_UNEXPECTED_DATA_PROVIDED}" />
+    </annotation>
+  </item>
+  <item name="androidx.core.provider.FontsContractCompat.FontRequestCallback void onTypefaceRequestFailed(int) 0">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{androidx.core.provider.FontsContractCompat.FontRequestCallback.FAIL_REASON_PROVIDER_NOT_FOUND, androidx.core.provider.FontsContractCompat.FontRequestCallback.FAIL_REASON_FONT_LOAD_ERROR, androidx.core.provider.FontsContractCompat.FontRequestCallback.FAIL_REASON_FONT_NOT_FOUND, androidx.core.provider.FontsContractCompat.FontRequestCallback.FAIL_REASON_FONT_UNAVAILABLE, androidx.core.provider.FontsContractCompat.FontRequestCallback.FAIL_REASON_MALFORMED_QUERY, androidx.core.provider.FontsContractCompat.FontRequestCallback.FAIL_REASON_WRONG_CERTIFICATES, androidx.core.provider.FontsContractCompat.FontRequestCallback.FAIL_REASON_SECURITY_VIOLATION, androidx.core.provider.FontsContractCompat.FontRequestCallback.RESULT_OK}" />
+    </annotation>
+  </item>
+  <item name="androidx.core.provider.FontsContractCompat.FontRequestCallback.FontRequestFailReason">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{androidx.core.provider.FontsContractCompat.FontRequestCallback.FAIL_REASON_PROVIDER_NOT_FOUND, androidx.core.provider.FontsContractCompat.FontRequestCallback.FAIL_REASON_FONT_LOAD_ERROR, androidx.core.provider.FontsContractCompat.FontRequestCallback.FAIL_REASON_FONT_NOT_FOUND, androidx.core.provider.FontsContractCompat.FontRequestCallback.FAIL_REA
