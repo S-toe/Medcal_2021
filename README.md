@@ -1,12 +1,8 @@
 <br />
-<p align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="https://user-images.githubusercontent.com/58405725/120890845-77c39100-c62f-11eb-852a-f1f8ed6416f3.png
-" alt="Logo" width="300" height="">
-  </a>
 
+  <p align="center"> <img src="https://user-images.githubusercontent.com/58405725/120959585-4a3c2c00-c784-11eb-8f42-d46723f03f3f.png"> </p>
   <h3 align="center">Medcal+</h3>
-
+<p align="center">
   <p align="center">
     Project Medcal for Capstone Project Bangkit
     <br />
