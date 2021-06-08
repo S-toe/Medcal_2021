@@ -10,8 +10,8 @@ tools:context=".FragmentHome">
 
     <ImageView
         android:id="@+id/hasilfoto"
-        android:layout_width="227dp"
-        android:layout_height="111dp"
+        android:layout_width="208dp"
+        android:layout_height="203dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/dash_border"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,39 +44,40 @@ tools:context=".FragmentHome">
 
     <LinearLayout
         android:id="@+id/det"
-        android:layout_width="250dp"
-        android:layout_height="150dp"
+        android:layout_width="279dp"
+        android:layout_height="255dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="120dp"
         android:background="@drawable/dash_border"
         android:gravity="top"
+        android:orientation="vertical"
         android:outlineSpotShadowColor="#0a0a0a"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/hasilfoto"
-        android:orientation="vertical">
+        app:layout_constraintTop_toBottomOf="@+id/hasilfoto">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
             android:text="Result"
-            android:textSize="26sp"
-            android:layout_marginBottom="20dp"/>
+            android:textSize="26sp" />
 
         <TextView
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
             android:text="Medicine Name:"
-            android:textSize="18sp"
-            android:layout_marginBottom="10dp"/>
+            android:textSize="18sp" />
+
         <TextView
-            android:id="@+id/tv_medsname"
+            android:id="@+id/medsname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
